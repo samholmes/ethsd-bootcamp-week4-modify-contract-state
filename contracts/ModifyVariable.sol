@@ -2,14 +2,19 @@
 pragma solidity ^0.8.4;
 
 contract ModifyVariable {
-  uint public x;
+    uint256 public x;
+    string public name;
 
-  constructor(uint _x) {
-    x = _x;
-  }
+    constructor(uint256 aNumber, string memory aName) {
+        x = aNumber;
+        name = aName;
+    }
 
-  function modifyToLeet() public {
-    x = 1337;
-  }
+    function modifyToLeet() public {
+        x = 1337;
+    }
 
+    function changeName(string memory aName) public {
+        name = aName;
+    }
 }
