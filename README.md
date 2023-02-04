@@ -1,4 +1,4 @@
-# Week 4 – Quest #1 Project
+# Week 4 – Side-Quest #1 Project
 
 This project demonstrates Hardhat project structure with a contract that has a
 state variable and a function to modify it. It includes a a quick test to 
